@@ -30,7 +30,4 @@ Thumbs.db
 *.swp
 *.swo
 
-# Model files - too large for GitHub (>100MB)
-*.h5
-*.keras
-*.pkl
+# Model files are now handled by Git LFS
