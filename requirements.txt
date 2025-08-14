@@ -1,7 +1,6 @@
 streamlit>=1.32
 pillow>=9.5
 numpy>=1.23
-# Prefer keras 3 if your model was saved with it; else TF 2.x works as well
-keras>=3.0; python_version >= '3.10'
-tensorflow>=2.12; python_version < '3.13'  # TF Windows wheels may lag for latest Python
-gunicorn
+tensorflow>=2.12.0
+protobuf>=3.20.0
+h5py>=3.7.0
